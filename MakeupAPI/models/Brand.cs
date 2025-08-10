@@ -1,4 +1,6 @@
-﻿namespace MakeupAPI.Models
+﻿using MakeupAPI.models;
+
+namespace MakeupAPI.Models
 {
     public class Brand
     {
@@ -6,7 +8,7 @@
         public string Name { get; set; }
         public string Country { get; set; }
 
-        public ICollection<product> products { get; set; }
+        public ICollection<Product> Products { get; set; }
 
     }
 }
