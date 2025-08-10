@@ -1,0 +1,6 @@
+@MakeupAPI_HostAddress = http://localhost:5182
+
+GET {{MakeupAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
